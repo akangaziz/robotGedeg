@@ -1,7 +1,7 @@
 robotGedeg
 ==========
 
-robotGedeg is a crazy robot
+robotGedeg is a crazy robot. 
 
 ===
 
@@ -68,3 +68,35 @@ REPORT
 Output:
 
 3,3,NORTH
+
+<h1>Installation</h1>
+1. Clone the github:
+	git clone https://github.com/akangaziz/robotGedeg.git
+
+2. cd robotGedeg
+3. Then running the robot with input command:
+	php robotGedeg.php sampledata/sample1.txt
+
+<h1>Sample Data </h1>
+Put your sample data command in folder sampledata, for example sampledata/simple1.txt as following:
+
+PLACE 0, 0, NORTH
+MOVE
+REPORT
+
+<h1>Run Robot via Command Line</h1>
+
+$ php robotGedeg.php sampledata/sample1.txt
+*** sampledata/sample1.txt ***
+Output: 0, 1, NORTH
+*** End of sampledata/sample1.txt ***
+
+$ php robotGedeg.php sampledata/sample2.txt
+*** sampledata/sample2.txt ***
+Output: 0, 0, WEST
+*** End of sampledata/sample2.txt ***
+
+$ php robotGedeg.php sampledata/sample3.txt
+*** sampledata/sample3.txt ***
+Output: 3, 3, NORTH
+*** End of sampledata/sample3.txt ***

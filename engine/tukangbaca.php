@@ -25,7 +25,7 @@ class TukangBaca
         }
     }
 
-    public function geCommands()
+    public function getCommands()
     {
         return $this->commandsArray;
     }
