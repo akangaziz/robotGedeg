@@ -87,6 +87,7 @@ REPORT
 <h1>Run Robot via Command Line</h1>
 
 $ php robotGedeg.php sampledata/sample1.txt
+
 *** sampledata/sample1.txt ***
 Output: 0, 1, NORTH
 *** End of sampledata/sample1.txt ***
@@ -100,3 +101,4 @@ $ php robotGedeg.php sampledata/sample3.txt
 *** sampledata/sample3.txt ***
 Output: 3, 3, NORTH
 *** End of sampledata/sample3.txt ***
+
